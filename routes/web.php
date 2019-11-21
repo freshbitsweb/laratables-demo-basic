@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'BasicLaraTableController@index');
+Route::get('basic', 'BasicLaraTableController@basicLaraTableData')->name('basicLaraTable');
