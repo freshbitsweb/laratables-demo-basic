@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\User;
 use Freshbitsweb\Laratables\Laratables;
 
-class BasicLaraTableController extends Controller
+class BasicLaratableController extends Controller
 {
     /**
      * Show Table Header column
@@ -15,7 +15,7 @@ class BasicLaraTableController extends Controller
      **/
     public function index()
     {
-        return view('basicLaraTable');
+        return view('basic_laratable');
     }
 
     /**
@@ -23,8 +23,8 @@ class BasicLaraTableController extends Controller
      *
      *
      * @return type Json
-     **/
-    public function basicLaraTableData()
+    **/
+    public function basicLaratableData()
     {
         return Laratables::recordsOf(User::class);
     }

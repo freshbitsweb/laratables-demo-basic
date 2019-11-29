@@ -14,7 +14,7 @@ class User extends Authenticatable
      * Indicates if the model should be timestamped.
      *
      * @var bool
-     */
+    */
     public $timestamps = false;
 
 }
