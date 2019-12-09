@@ -20,9 +20,8 @@ class BasicLaratableController extends Controller
     /**
      * return data of the basic datatables.
      *
-     *
-     * @return type Json
-    **/
+     * @return Illuminate\Http\JsonResponse
+     **/
     public function basicLaratableData()
     {
         return Laratables::recordsOf(User::class);
