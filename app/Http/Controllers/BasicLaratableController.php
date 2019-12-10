@@ -18,7 +18,7 @@ class BasicLaratableController extends Controller
     }
 
     /**
-     * return data of the basic datatables.
+     * Returns data of the basic datatables.
      *
      * @return Illuminate\Http\JsonResponse
      **/
